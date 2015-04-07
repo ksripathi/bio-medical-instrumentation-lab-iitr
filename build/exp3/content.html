@@ -1,0 +1,291 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<div id="experiment"> 
+
+  <header id="experiment-header" class="default">
+  
+    <div id="experiment-header-logo" class="logo">
+     
+      <img src="../images/logo.jpg" />
+    </div>
+
+    <div id="experiment-header-heading" class="heading">
+     
+      <a href="../index.php">Bio-Medical Instrumentation Lab</a>	
+    </div>
+
+    
+
+  </header>
+
+
+ 
+  <article id="experiment-article">
+  
+    
+     <div id="experiment-article-breadcrumb" class="breadcrumb">
+     </div>
+    
+      <header id="experiment-article-heading" class="heading">
+       
+    ECG Acquisition and HRV analysis in time and frequency domain</header>
+
+    
+      <nav id="experiment-article-navigation" class="default">
+        <ul id="experiment-article-navigation-menu">
+        
+        </ul>
+      </nav>
+
+      <!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+      <div id="experiment-article-sections">
+
+        <!-- First section of the article-->
+        <section id="experiment-article-section-1">
+          
+          <div id="experiment-article-section-1-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab -->
+	    <img src="../images/theory.jpg" />
+	  </div>	
+          
+          <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+          <div id="experiment-article-section-1-heading" 
+          class="heading">
+            Theory 
+          </div>
+
+          <!-- Write the section content inside a paragraph 
+          element, You can also include images with <img> tag -->
+          <div id="experiment-article-section-1-content" 
+          class="content">	
+            
+
+	<p><em>Experimental </em><em>Objective</em>- Record ECG. At the same time, R-R tachogram, PSD and other factors  are calculated.
+	<p><br>
+	  <em>Calculation</em><em> method- </em>The Welch periodogram  method is used to create  a PSD profile which contains 3 parameters  (Window size, Overlap  size, Number of frequency points).    
+<p><br>
+	  <em>Scientific </em><em>principle-</em>It is a physiological phenomenon where the time interval between Heart Beats varies.  It is measured by the  variation in the beat-to-beat interval.<br>
+Variation in the beat-to-beat interval is a physiological phenomenon. The SA node receives several different inputs and the instantaneous heart rate or RR interval  and its variation  is the results  of these inputs.<br>
+The main inputs are the sympathetic and the  parasympathetic nervous  systems (the two branches  of the autonomic nervous system), and humoral factors. Respiration gives rise to waves in heart rate mediated primarily via the parasympathetic nervous system, and it is thought  that the lag in the baroceptor feedback loop may give rise to 10 second waves in heart rate (associated with Mayer waves of blood  pressure), but this remains controversial.  Factors that affect the input are  the baroreflex, thermoregulation,  hormones, sleep-wake cycle,  meals, physical  activity, and stress.<br>
+There are two primary fluctuations:
+<ul>
+  <li>Respiratory arrhythmia (or Respiratory sinus arrhythmia) .This heart rate variation is associated with respiration and faithfully tracks the respiratory rate across a range of frequencies.</li>
+  <li>Low-frequency oscillations this heart rate variation is associated with Mayer waves (Traube– Hering–Mayer waves) of blood pressure  and is usually  at a frequency of 0.1 Hz or a 10-second  period.</li>
+</ul>
+<p><strong>Methods for calculating HRV- </strong>The most widely used methods can be grouped  under time-domain and frequency-domain. Other methods  have been proposed, such as non-linear methods.<br>
+  Time-domain methods- These are based on the beat-to-beat or NN intervals, which are analysed  to give variables such as:</p>
+<ul>
+  <li>SDNN, the standard deviation of NN intervals. Often calculated over  a 24-hour  period.</li>
+  <li>SDANN, the standard deviation of the average NN intervals calculated over short periods, usually 5 minutes.  SDANN is therefore a measure  of changes in heart rate due to cycles longer  than 5 minutes.</li>
+  <li>RMSSD, the square root of the mean  squared difference of successive NNs.</li>
+  <li>NN50, the number of  pairs of successive NNs that differ  by  more than 50 ms.</li>
+  <li>pNN50, the proportion  of NN50 divided by total number  of NNs.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Frequency-domain methods- Several methods are available. Power spectral density (PSD), using parametric or nonparametric methods, provides basic information on the power distribution across frequencies. One of the most commonly  used PSD methods is the discrete Fourier transform.<br>
+  Non-linear methods- Given the complexity of the mechanisms regulating heart rate, it is reasonable to assume that applying HRV analysis based on methods  of non-linear dynamics  will yield valuable information. Although chaotic  behavior has been assumed, more rigorous testing has shown that heart rate variability cannot be described as a chaotic process. The most commonly used non-linear method of analyzing  heart rate variability is the Poincaré  plot. Each data point represents a pair of successive beats, the x-axis is the  current RR interval, while  the  y-axis is the previous  RR interval. HRV is  quantified by fitting  mathematically defined geometric shapes to the data. Other methods  used are the correlation dimension, nonlinear predictability, point wise correlation dimension and approximate entropy.</p>
+<p><img src="images/Image_006.jpg"  alt="" style="width:606px;height:361px" align="absmiddle"/>          
+<p><em>Application </em><em>- </em>Reduced HRV has been  shown to be a predictor  of mortality after myocardial infarction although others have  shown that the information in HRV relevant to acute  myocardial infarction  survival is fully contained in the mean heart rate.  A range of other outcomes/conditions may also be associated with  modified (usually lower) HRV, including  congestive heart failure, diabetic  neuropathy, depression post- cardiac transplant, susceptibility to SIDS  and  poor survival in premature  babies.
+<p>In the field of psychophysiology, there is  great interest in HRV. For  example, decreased  HRV may be apparent  in the presence of  depression. Moreover, the Polyvagal Theory derives from a psychophysiologic imputation of importance to HRV. This  theory emphasizes the role of heart rate variability in understanding  the magnitude and nature of  vagal outflow to the heart.  However, there is no  anatomic or physiologic evidence for  a polyvagal control of the heart.</p>
+          </div>
+
+
+      </section>
+
+      <!-- Second section of the article-->
+      <section id="experiment-article-section-2">
+        
+        <div id="experiment-article-section-2-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+				
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+        <div id="experiment-article-section-2-heading" 
+        class="heading">
+          Objective</div>
+       <div id="experiment-article-section-2-content" 
+        class="content">
+
+   <p>1) To study the wave shapes of ECG signals by Lead II system.<br>
+     2)To study the wave shapes of ECG signal  for 120 different abnormalities for example-premature contraction, arrhythmias, ventricle focus, different BPM, fibrillations, different rhythms , with noise, cardiac abnormalities etc.<br>
+     3) To review output graph for R-R tachogram, PSD of interpolated R-R interval, Poincare plot, R-R Histogram, Non- Parameteric Spectrum.<br>
+     4) To assess your knowledge about the experiment by answering a questionnaire at the end of the experiment.</p>
+       </div>
+      </section>
+
+
+      <section id="experiment-article-section-3">
+        
+        <div id="experiment-article-section-3-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/Equipment Used.jpg" />
+	</div>
+     
+        <div id="experiment-article-section-3-heading" 
+        class="heading">
+          Equipment Used</div>
+
+        <div id="experiment-article-section-3-content" 
+        class="content">
+
+	<p>
+        1. BIOPAC MP150 system<br>
+        2. ECG-100C BIOPAC Amplifiers
+        <br>
+        3. AcqKnowledge Software (BIOPAC)<br>
+        4. ECG Leads<br>
+        5. Fluke PS-420 Multiparameter Patient Simulator</p>
+	
+	
+        </div>
+
+      </section>
+
+
+      <section id="experiment-article-section-4">
+
+        <div id="experiment-article-section-4-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/simulation.jpg" />
+	</div>
+
+        <div id="experiment-article-section-4-heading" 
+        class="heading">
+          Experiment
+        </div>
+
+        <div id="experiment-article-section-4-content" 
+        class="content">
+ <p>
+      <a onclick="window.open('http://103.37.201.113/vlab/view.php?expid=exp1316607313&cnid=3', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;" class="qtlink" href="http://103.37.201.113/vlab/view.php?expid=exp1316607313&cnid=3">
+
+	Go to lab on ECG Acquisition and HRV analysis in time and frequency domain(Click here) </a>
+         </p>
+
+        </div>
+
+      </section>
+      <section id="experiment-article-section-6">
+      
+        <div id="experiment-article-section-6-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/quizzes.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-6-heading" 
+          class="heading">
+            Quizzes
+          </div>
+
+          <div id="experiment-article-section-6-content" 
+          class="content">
+            
+            <p>The quiz is included in the standalone application.
+            </div>
+
+        </section>
+
+        <section id="experiment-article-section-7">
+	  
+          <div id="experiment-article-section-7-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab. -->
+	    <img src="../images/procedure.jpg" />
+	  </div>
+	
+          <div id="experiment-article-section-7-heading" 
+          class="heading">
+	    Procedure
+	  </div>
+	
+          <div id="experiment-article-section-7-content" 
+          class="content">
+            <p>Procedure for the experiment is shown in the following video (Skip to 1:35). </p>
+		<p>
+		  <iframe width="880" height="420" src="https://www.youtube.com/embed/zoICkjZtttA" frameborder="0" allowfullscreen></iframe>
+          </div>
+	
+        </section>
+			
+		
+        <section id="experiment-article-section-8">
+   
+          <div id="experiment-article-section-8-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/readings.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-8-heading" 
+          class="heading">
+            Further Readings
+          </div>
+
+          <div id="experiment-article-section-8-content" 
+          class="content">
+  <ol>
+    <li><a href="http://physionet.org/tutorials/hrv-toolkit/">http://physionet.org/tutorials/hrv-toolkit/</a>  </li>
+    <li><a href="http://en.wikipedia.org/wiki/Heart_rate_variability">http://en.wikipedia.org/wiki/Heart_rate_variability</a></li>
+    <li><a href="http://kubios.uef.fi/">http://kubios.uef.fi/</a></li>
+    <li><a href="http://www.medscape.com/viewarticle/536280_3">http://www.medscape.com/viewarticle/536280_3</a></li>
+    <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/1504981">http://www.ncbi.nlm.nih.gov/pubmed/1504981</a></li>
+    <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/15777689">http://www.ncbi.nlm.nih.gov/pubmed/15777689</a></li>
+  </ol>
+  <p><br>
+          </div>
+
+        </section>
+
+      </div>
+
+
+    <!-- An article can have a sidebar that contain related 
+    links and additional material (however it is kept optional 
+    at this moment) -->
+    <aside id="lab-article-sidebar" class="default">
+      <!-- put the content that you want to appear in the 
+      sidebar -->	
+    </aside>
+
+
+    <!-- Article footer can display related content and 
+    additional links -->						
+    <footer id="lab-article-footer" class="default">
+      <!-- Put the content that you want to appear here -->
+    </footer>
+
+  </article>
+
+
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>		
+
+</body>
+</html>
