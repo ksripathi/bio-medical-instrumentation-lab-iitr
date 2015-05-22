@@ -1,5 +1,5 @@
 #/bin/bash
-# restore Script for Biomedical Instrumentation Lab
+# restore Script for Biomedical-Instrumentation-iitr Lab
 
 # restore Script takes the restore of the database used by the lab.
 # Since there is no database being used for Biomedical Instrumentation Lab. 
