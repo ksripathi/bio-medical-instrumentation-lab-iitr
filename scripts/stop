@@ -4,8 +4,8 @@
 
 # Usage of the Script 
 
-# To use shutdown.sh, run the command
-# ./scripts/shutdown.sh
+# To use stop.sh, run the command
+# ./scripts/stop.sh
 
 # stops the Apache service
 service apache2 stop

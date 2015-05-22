@@ -5,7 +5,7 @@
 # Usage of the Script 
 
 # To use startup.sh, run the command
-# ./scripts/startup.sh
+# ./scripts/start.sh
 
 # starts the Apache service
 service apache2 start
